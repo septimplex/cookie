@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/cookie_bg"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/ime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/naslov"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+
+        android:hint="Choose username..."
+        android:textColor="#000000"
+        android:textColorHint="#615E5E"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ime"
+        android:layout_marginTop="30dp"
+        android:hint="Choose password..."
+        android:password="true"
+        android:textColorHint="#615E5E"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/repass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="30dp"
+        android:hint="Verify password..."
+        android:password="true"
+        android:textColorHint="#615E5E"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="74dp"
+        android:layout_height="64dp"
+        android:background="@drawable/roundbutton"
+        android:clickable="true"
+        android:onClick="ReturnMainPage"
+        android:text="Back"
+        android:textColor="#615E5E" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create account and login"
+        android:layout_below="@+id/repass"
+        android:layout_marginTop="100dp"
+        android:textColor="#FFF8F8"
+
+        />
+
+
+</RelativeLayout>

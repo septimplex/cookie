@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    tools:context=".Popis">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:id="@+id/t1"
+        android:text="Odabrani sastojci:"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_below="@+id/t1"
+        android:id="@+id/popis">
+
+
+    </ListView>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:layout_width="fill_parent"
+        android:gravity="bottom">
+
+        <Button android:id="@+id/dlt"
+            android:layout_height="80dp"
+            android:layout_width="fill_parent"
+            android:text="DELETE ALL"
+            android:onClick="BackMain"
+            android:layout_weight="1"/>
+        <Button android:id="@+id/recepti"
+            android:layout_height="80dp"
+            android:onClick="Dalje"
+            android:layout_width="fill_parent"
+            android:text="TRAŽI RECEPTE"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

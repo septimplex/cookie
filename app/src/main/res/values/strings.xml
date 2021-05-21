@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cookie</string>
+    <string name="signup"><a href="">Sign up</a></string>
+    <string name="title_activity_login_main">ScrollingActivity</string>
+    <string name="mainpagewelcome">Welcome to cookie! <br></br> Choose your ingredients:</string>
+    <string name="title_activity_recept">Recept</string>
+
+
+</resources>

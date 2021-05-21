@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp"
+    tools:context=".Rezultat">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:clickable="true"
+        android:layout_centerHorizontal="true"
+        android:text="Natrag na glavni izbornik"
+        android:onClick="BackMain"
+        android:textColor="#615E5E" />
+    <TextView
+        android:id="@+id/odabrano"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="Recepti:"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button2"/>
+
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/odabrano"/>
+
+
+</RelativeLayout>
